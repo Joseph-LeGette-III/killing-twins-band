@@ -10,8 +10,8 @@ export async function generateMetadata() {
     title: "Killing Twins",
     description:
       "Experience the raw energy of Killing Twins, a death thrash metal band from Metro Vancouver.",
-    imageRef: "/homepage-banner.jpg",
-    tags: "killingtwins, killingtwinsband, band, metal, music",
+    imageRef: "/logo.svg",
+    tags: "killingtwins, killing twins, killingtwinsband, killing twins band, band, metal, music",
   });
 
   return seo;
