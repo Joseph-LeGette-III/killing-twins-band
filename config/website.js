@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/",
   siteTitle: "Killing Twins",
   siteTitleAlt: "Killing Twins - Death Thrash Metal Band",
-  siteUrl: "https://web.thefireocean.party",
+  siteUrl: "https://www.killingtwinsband.com",
   siteLanguage: "en",
   siteLogo: "/logo.svg",
   siteDescription:
