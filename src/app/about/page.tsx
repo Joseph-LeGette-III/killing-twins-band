@@ -30,7 +30,7 @@ export default function About() {
           <div className="relative">
             <Image
               className="bg-red-400 p-1"
-              src="https://placehold.co/500.webp"
+              src="/jack-drews.webp"
               width={500}
               height={500}
               alt="Jack Drews"
@@ -63,7 +63,7 @@ export default function About() {
           <div className="relative">
             <Image
               className="bg-red-400 p-1"
-              src="https://placehold.co/500.webp"
+              src="/kyle-desharnais.webp"
               width={500}
               height={500}
               alt="Kyle Desharnais"
@@ -87,7 +87,7 @@ export default function About() {
           <div className="relative">
             <Image
               className="bg-red-400 p-1"
-              src="https://placehold.co/500.webp"
+              src="/kurt-winter.webp"
               width={500}
               height={500}
               alt="Kurt Winter"
@@ -112,7 +112,7 @@ export default function About() {
           <div className="relative">
             <Image
               className="bg-red-400 p-1"
-              src="https://placehold.co/500.webp"
+              src="/alex-winter.webp"
               width={500}
               height={500}
               alt="Alex Winter"
