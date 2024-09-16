@@ -13,7 +13,7 @@ Example:
 ]
 ```
 
-# Media JSON
+## Media JSON
 
 Example:
 
@@ -39,7 +39,7 @@ Example:
 ]
 ```
 
-# Events JSON
+## Events JSON
 
 Example:
 
