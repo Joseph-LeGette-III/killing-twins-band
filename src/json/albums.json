@@ -1,5 +1,5 @@
 {
-  "the_lie": {
+  "the-lie": {
     "title": "The Lie Demo",
     "imageUrl": "/media/the-lie-demo.webp",
     "releaseDate": "July 12 2024",
@@ -29,9 +29,39 @@
       ]
     }
   },
-  "scream_for_war": {
+  "scream-for-war": {
     "title": "Scream For War",
     "imageUrl": "/media/scream-for-war.webp",
-    "releaseDate": "July 26 2024"
+    "releaseDate": "July 26 2024",
+    "about": {
+      "description": "",
+      "links": [
+        {
+          "platform": "spotify",
+          "url": "https://open.spotify.com/track/0wINFkf9zCtpAwQOHNcjr3"
+        },
+        {
+          "platform": "deezer",
+          "url": "https://deezer.com/track/2910378191"
+        },
+        {
+          "platform": "amazonmusic",
+          "url": "https://music.amazon.com/tracks/B0DB16KN98"
+        },
+        {
+          "platform": "applemusic",
+          "url": "https://music.apple.com/us/album/scream-for-war-demo-single/1759208964"
+        },
+        {
+          "platform": "tidal",
+          "url": "https://tidal.com/browse/track/377048552"
+        }
+      ]
+    }
+  },
+  "end-of-days": {
+    "title": "End of Days",
+    "imageUrl": "/media/end-of-days.webp",
+    "releaseDate": "September 16 2024"
   }
 }
