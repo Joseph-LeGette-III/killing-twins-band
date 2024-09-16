@@ -1,8 +1,9 @@
-import MusicLink from "@/components/MusicLink";
-import Image from "next/image";
 import { promises as fs } from "fs";
-import { notFound } from "next/navigation";
 import path from "path";
+import SEO from "@/components/SEO";
+import Image from "next/image";
+import MusicLink from "@/components/MusicLink";
+import { notFound } from "next/navigation";
 
 interface Song {
   title: string;
@@ -24,9 +25,11 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
     return { title: "Song not found" };
   }
 
-  return {
+  return SEO({
     title: `Killing Twins - ${song.title}`,
-  };
+    description: song.about?.description,
+    imageRef: song.imageUrl,
+  });
 }
 
 export default async function Page({ params }: { params: { id: string } }) {
