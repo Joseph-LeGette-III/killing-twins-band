@@ -38,14 +38,14 @@ const SEO = ({
       type: "website",
       title: title,
       description: description,
-      images: [imageRef],
+      images: [`${baseURL}${imageRef}` || `${baseURL}/logo.svg`],
     },
     twitter: {
       card: "summary_large_image",
       creator: config.userTwitter || "",
       title: title,
       description: description,
-      images: [imageRef],
+      images: [`${baseURL}${imageRef}` || `${baseURL}/logo.svg`],
     },
     appLinks: {
       web: {
