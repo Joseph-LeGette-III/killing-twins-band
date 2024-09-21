@@ -17,7 +17,7 @@ export default function Contact() {
           {email}
         </a>
       </p>
-      <p>778 980 7795</p>
+      <p>778 980 7995</p>
     </div>
   );
 }
