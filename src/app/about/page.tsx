@@ -17,8 +17,8 @@ export default function About() {
       <p className="pt-2 text-3xl">About</p>
       <p className="py-1">
         Killing Twins is a death thrash band founded in Metro Vancouver on March
-        22nd, 2023. The band was formed by lead guitarist and vocalist Jack
-        Drews, who met drummer Kurt Winter on the platform Bandmix. Despite
+        22nd, 2023. The band was formed by lead guitarist and vocalist Jaska
+        Esko, who met drummer Kurt Winter on the platform Bandmix. Despite
         facing challenges in finding a permanent bassist, the duo eventually
         recruited Kurt&apos;s brother, Alex Winter, to complete the lineup. In
         February 2024, they discovered rhythm guitarist Kyle Desharnais through
@@ -30,14 +30,14 @@ export default function About() {
           <div className="relative">
             <Image
               className="bg-red-400 p-1"
-              src="/jack-drews.webp"
+              src="/jaska-esko.webp"
               width={500}
               height={500}
-              alt="Jack Drews"
+              alt="Jaska Esko"
               priority
             />
             <div className="absolute bottom-0 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 text-center text-2xl font-bold">
-              Jack Drews
+              Jaska Esko
             </div>
           </div>
           <p className="mb-4 text-center">
