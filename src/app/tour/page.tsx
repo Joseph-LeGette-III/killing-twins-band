@@ -60,8 +60,17 @@ export default async function Tour() {
                       {item.location}
                     </div>
                     <div className="col-span-2 flex w-full flex-col gap-2 p-4 sm:col-span-5 sm:grid sm:grid-cols-2 lg:col-span-4">
-                      {item.buttons &&
-                        item.buttons.map((button, index) => (
+                      {[
+                        ...(item.buttons || []),
+                        {
+                          label: "Buy Tickets",
+                          link: item.ticketLink,
+                        },
+                      ].map(
+                        (
+                          button: { label: string; link: string },
+                          index: number,
+                        ) => (
                           <a
                             key={button.label}
                             href={button.link}
@@ -71,7 +80,8 @@ export default async function Tour() {
                               {button.label}
                             </div>
                           </a>
-                        ))}
+                        ),
+                      )}
                     </div>
                   </li>
                 ))}
