@@ -16,14 +16,14 @@ const Navbar: React.FC<NavbarProps> = () => {
     { href: "/tour", label: "Tour" },
     { href: "/media", label: "Media" },
     { href: "/about", label: "About" },
-    { href: "", label: "Store" },
+    { href: "https://killingtwins.bigcartel.com/products", label: "Store" },
     { href: "/contact", label: "Contact" },
   ];
 
   const isActive = (href: string) => pathname === href;
 
   return (
-    <nav className="sticky top-0 z-50 bg-neutral-900">
+    <nav className="sticky top-0 z-50 w-full bg-neutral-900">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           {/* Mobile menu button */}

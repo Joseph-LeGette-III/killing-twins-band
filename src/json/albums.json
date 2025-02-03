@@ -62,6 +62,31 @@
   "end-of-days": {
     "title": "End of Days",
     "imageUrl": "/media/end-of-days.webp",
-    "releaseDate": "September 16 2024"
+    "releaseDate": "September 16 2024",
+    "about": {
+      "description": "",
+      "links": [
+        {
+          "platform": "spotify",
+          "url": "https://open.spotify.com/track/0wINFkf9zCtpAwQOHNcjr3"
+        },
+        {
+          "platform": "deezer",
+          "url": "https://www.deezer.com/us/track/2994183751"
+        },
+        {
+          "platform": "amazonmusic",
+          "url": "https://music.amazon.com/tracks/B0D91B4K38"
+        },
+        {
+          "platform": "applemusic",
+          "url": "https://music.apple.com/us/album/end-of-days-demo/1768612547?i=1768612548"
+        },
+        {
+          "platform": "tidal",
+          "url": "https://tidal.com/browse/track/387046751"
+        }
+      ]
+    }
   }
 }

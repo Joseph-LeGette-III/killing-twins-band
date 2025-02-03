@@ -17,9 +17,8 @@ export default function HomePage() {
       </div>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-4">
         <div className="aspect-square h-auto bg-neutral-900 text-center sm:bg-inherit">
-          <div className="mb-2">On the release radar</div>
+          <div className="mb-2">Out now!</div>
           <Album songKey="end-of-days" />
-          <div className="mt-2">September 16</div>
         </div>
 
         {/*

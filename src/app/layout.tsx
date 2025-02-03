@@ -23,12 +23,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="min-h-dvh bg-neutral-950 text-white">
       <body className={inter.className}>
-        <main className="min-h-dvh bg-neutral-950 text-white">
-          <Navbar />
-          {children}
-        </main>
+        <Navbar />
+        <main>{children}</main>
       </body>
     </html>
   );
