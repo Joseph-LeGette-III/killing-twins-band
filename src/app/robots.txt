@@ -3,7 +3,7 @@ Allow: /
 Allow: /home
 Allow: /music
 Allow: /music/*
-Allow: /tour
+Allow: /events
 Allow: /media
 Allow: /about
 Allow: /contact
