@@ -15,11 +15,16 @@ interface Song {
   };
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
   const filePath = path.join(process.cwd(), "src/json/albums.json");
   const fileContents = await fs.readFile(filePath, "utf8");
   const json = JSON.parse(fileContents);
-  const song = json[params.id] as Song | undefined;
+  const song = json[id] as Song | undefined;
 
   if (!song) {
     return { title: "Song not found" };
@@ -36,7 +41,8 @@ export default async function Page({ params }: { params: { id: string } }) {
   const filePath = path.join(process.cwd(), "src/json/albums.json");
   const fileContents = await fs.readFile(filePath, "utf8");
   const json = JSON.parse(fileContents);
-  const song = json[params.id] as Song | undefined;
+  const { id } = await params;
+  const song = json[id] as Song | undefined;
 
   if (!song || !song.about) {
     notFound();
