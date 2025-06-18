@@ -63,7 +63,7 @@ export default async function Page({ params }: { params: { id: string } }) {
           alt={song.title}
         />
         <p className="mx-3 text-lg sm:col-start-3 lg:text-base">
-          {song.about.description}
+          {song.about.description?.trim() ? song.about.description : ""}
         </p>
       </div>
     </div>
