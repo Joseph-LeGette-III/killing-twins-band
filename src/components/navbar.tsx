@@ -13,7 +13,7 @@ const Navbar: React.FC<NavbarProps> = () => {
   const navLinks = [
     { href: "/home", label: "Home" },
     { href: "/music", label: "Music" },
-    { href: "/tour", label: "Tour" },
+    { href: "/events", label: "Events" },
     { href: "/media", label: "Media" },
     { href: "/about", label: "About" },
     { href: "https://killingtwins.bigcartel.com/products", label: "Store" },
