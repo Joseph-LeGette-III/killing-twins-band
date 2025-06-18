@@ -122,7 +122,7 @@ export default function About() {
             </div>
           </div>
           <p className="mb-4 block text-center sm:hidden">
-            Bass and Occasional Vocals
+            Bass
             <br />
             2023-Present
           </p>
